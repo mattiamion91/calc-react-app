@@ -34,6 +34,10 @@ export default {
                 // takes your modern JavaScript + JSX and converts it to older JS 
                 // that browsers understand
             },
+            {
+                test: /\.css$/,
+                use: ["style-loader", "css-loader"]
+            }
         ],
     },
 
